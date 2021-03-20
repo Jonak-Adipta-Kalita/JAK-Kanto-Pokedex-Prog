@@ -44,7 +44,7 @@ const displayPopup = (pokeman) => {
 	const htmlString = `
 		<div class="popup">
 			<button id="closeBtn" onclick="closePopup()">Close</button>
-			<div class="card"">
+			<div class="card">
 				<img class="card-image" src="${image}"/>
 				<h2 class="card-title">${pokeman.id}. ${pokeman.name}</h2>
 				<p>
